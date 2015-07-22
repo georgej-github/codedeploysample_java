@@ -3,7 +3,7 @@ version: 0.0
 files:
   - source: Config/config.txt
     destination: /webapps/Config
-  - source: source
+  - source: index.jsp
     destination: /webapps/myApp
 hooks:
   BeforeInstall:
