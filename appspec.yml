@@ -8,9 +8,6 @@ files:
 hooks:
   BeforeInstall:
     - location: Scripts/CleanUp.sh
-  AfterInstall:
-    - location: Scripts/SetupApp.sh
-      timeout: 180
   ApplicationStart:
     - location: Scripts/StartApp.sh
       timeout: 3600
