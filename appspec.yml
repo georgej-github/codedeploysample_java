@@ -2,9 +2,9 @@ os: linux
 version: 0.0
 files:
   - source: Config/config.txt
-    destination: /webapps/Config
+    destination: /opt/apache-tomcat-8.0.23/webapps/Config
   - source: index.jsp
-    destination: /webapps/myApp
+    destination: /opt/apache-tomcat-8.0.23/webapps/myApp
 hooks:
   BeforeInstall:
     - location: Scripts/CleanUp.sh
